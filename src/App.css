@@ -1,0 +1,46 @@
+.App-logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(0, 47, 255), rgb(0, 128, 117));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-input {
+  padding: 6px;
+  width: 400px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-donatebutton {
+  background-color:rgb(19, 143, 56);
+  border-radius: 8px;
+  width: 150px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.App-bottom {
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
