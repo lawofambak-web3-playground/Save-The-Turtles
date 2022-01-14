@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+# Solidity / Web3 App -- Save The Turtles
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a simple donating web application that is supposed to allow users to donate to a smart contract with Metamask.
 
-Try running some of the following tasks:
+Deployed website --> https://save-the-turtles.vercel.app/
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Deployed Smart Contract of Rinkeby Network --> https://rinkeby.etherscan.io/address/0x3da1f6a461013cb7de63b3e081c3426e0d2908c9
+
+<img width="1326" alt="Screen Shot 2022-01-13 at 9 55 43 PM" src="https://user-images.githubusercontent.com/97472796/149458885-d3c9a780-9cc8-49b2-af47-cb1552e8e6fb.png">
