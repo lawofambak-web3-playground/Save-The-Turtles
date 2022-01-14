@@ -46,9 +46,9 @@ function App() {
         // Executing the "donate" function from smart contract
         const donateTxn = await contract.donate(name, { value: ethers.utils.parseEther("0.5") });
         console.log("Mining...", donateTxn);
+        toast.info("Sending funds. Please wait.");
         await donateTxn.wait();
         console.log("Mined...", donateTxn);
-        toast.info("Sending funds. Please wait.");
         toast.success(`Thank you for your donation ${name}`);
         let totalDonators = await contract.getAllDonators();
         console.log("Total donators: ", parseFloat(totalDonators));
